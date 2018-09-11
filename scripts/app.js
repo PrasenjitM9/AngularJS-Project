@@ -59,16 +59,7 @@ angular
         templateUrl:'views/school/student.html',
         controller: 'StudentCtrl'
       })
-       .when('/test', {
-        templateUrl:'views/school/test.html',
-        controller: 'TestCtrl'
-      })  
-      .when('/questions', {
-        templateUrl:'views/school/questions.html',
-        controller: 'TestCtrl'
-      })
     
-
 
       .when('/changePwd',{
         templateUrl:'views/changePwd.html',
